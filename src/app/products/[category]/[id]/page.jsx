@@ -43,7 +43,9 @@ export default function ProductDetails() {
   useEffect(() => {
     const fetchProduct = async () => {
       try {
-        const res = await fetch(`http://localhost:5000/products/${id}`);
+        const res = await fetch(
+          `https://craftsy-server.vercel.app/products/${id}`
+        );
         if (!res.ok) throw new Error("Product not found");
         const data = await res.json();
         setProduct(data);
@@ -79,7 +81,7 @@ export default function ProductDetails() {
       };
 
       // Send to Backend
-      const res = await fetch("http://localhost:5000/orders", {
+      const res = await fetch("https://craftsy-server.vercel.app/orders", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

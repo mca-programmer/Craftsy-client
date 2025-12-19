@@ -72,7 +72,7 @@ export default function Register() {
   // Sync user to MongoDB
   const saveUserToBackend = async (user, photoURL) => {
     try {
-      await fetch("http://localhost:5000/users", {
+      await fetch("https://craftsy-server.vercel.app/users", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({

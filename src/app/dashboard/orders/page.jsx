@@ -42,7 +42,9 @@ export default function Orders() {
   // Fetch Orders from Backend
   const fetchOrders = async (email) => {
     try {
-      const res = await fetch(`http://localhost:5000/orders?email=${email}`);
+      const res = await fetch(
+        `https://craftsy-server.vercel.app/orders?email=${email}`
+      );
       const data = await res.json();
       setOrders(data);
     } catch (error) {
@@ -67,7 +69,7 @@ export default function Orders() {
     const toastId = toast.loading("Removing item...");
     try {
       const res = await fetch(
-        `http://localhost:5000/orders/${itemToDelete}?email=${user.email}`,
+        `https://craftsy-server.vercel.app/orders/${itemToDelete}?email=${user.email}`,
         { method: "DELETE" }
       );
 

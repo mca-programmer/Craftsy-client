@@ -29,7 +29,7 @@ export default function FeaturedCollection() {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const res = await fetch("http://localhost:5000/products");
+        const res = await fetch("https://craftsy-server.vercel.app/products");
         const data = await res.json();
         setProducts(data.slice(0, 4));
       } catch (error) {
@@ -62,7 +62,7 @@ export default function FeaturedCollection() {
       };
 
       // Call Backend API
-      const res = await fetch("http://localhost:5000/orders", {
+      const res = await fetch("https://craftsy-server.vercel.app/orders", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

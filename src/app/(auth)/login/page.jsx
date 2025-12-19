@@ -27,7 +27,7 @@ export default function Login() {
   // Sync user to MongoDB backend
   const saveUserToBackend = async (user) => {
     try {
-      await fetch("http://localhost:5000/users", {
+      await fetch("https://craftsy-server.vercel.app/users", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({

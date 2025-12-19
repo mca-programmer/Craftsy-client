@@ -71,7 +71,9 @@ export default function AddProduct() {
     try {
       // 1. CHECK FOR DUPLICATE NAME/SLUG
       const newSlug = createSlug(formData.name);
-      const checkRes = await fetch(`http://localhost:5000/products/${newSlug}`);
+      const checkRes = await fetch(
+        `https://craftsy-server.vercel.app/products/${newSlug}`
+      );
 
       if (checkRes.ok) {
         toast.error("A product with this name already exists!", {
@@ -93,7 +95,7 @@ export default function AddProduct() {
       };
 
       // POST to Backend
-      const res = await fetch("http://localhost:5000/products", {
+      const res = await fetch("https://craftsy-server.vercel.app/products", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

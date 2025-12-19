@@ -27,7 +27,7 @@ function ProductsContent() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await fetch("http://localhost:5000/products");
+        const res = await fetch("https://craftsy-server.vercel.app/products");
         const data = await res.json();
 
         setAllProducts(data);
