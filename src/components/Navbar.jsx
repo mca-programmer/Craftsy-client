@@ -105,7 +105,7 @@ export default function Navbar() {
             {/* Logo */}
             <Link href="/" className="flex items-center space-x-1">
               <span className="text-4xl md:text-5xl font-bold tracking-tighter">
-                crafty.
+                Craftsy.
               </span>
             </Link>
 

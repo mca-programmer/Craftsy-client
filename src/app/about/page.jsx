@@ -14,7 +14,7 @@ export default function About() {
         <div className="relative h-64 sm:h-80 w-full bg-gray-200">
           <Image
             src="https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?q=80&w=2449&auto=format&fit=crop"
-            alt="Crafty Workshop"
+            alt="Craftsy Workshop"
             fill
             objectFit="cover"
             className="hover:scale-105 transition-transform duration-1000"
@@ -40,7 +40,7 @@ export default function About() {
 
           <div className="text-lg prose prose-stone mx-auto text-gray-600 leading-relaxed space-y-4 max-w-2xl">
             <p>
-              At <strong className="text-amber-700">Crafty</strong>, we believe
+              At <strong className="text-amber-700">Craftsy</strong>, we believe
               that the things we surround ourselves with should tell a story. We
               started this journey to bridge the gap between master artisans in
               remote villages and modern homes around the world.

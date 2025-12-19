@@ -27,7 +27,7 @@ const reviews = [
     role: "DIY Enthusiast",
     image: "/images/user-3.jpg",
     rating: 4,
-    text: "I love supporting small businesses and independent creators. Crafty makes it so easy to find beautiful, sustainable items. My new bamboo lamp has transformed my workspace.",
+    text: "I love supporting small businesses and independent creators. Craftsy makes it so easy to find beautiful, sustainable items. My new bamboo lamp has transformed my workspace.",
   },
 ];
 
@@ -46,7 +46,7 @@ export default function Testimonials() {
             Stories from Our Community
           </h2>
           <p className="text-lg text-black/60 max-w-2xl mx-auto">
-            See why thousands of customers choose Crafty for their home and
+            See why thousands of customers choose Craftsy for their home and
             lifestyle needs.
           </p>
         </div>

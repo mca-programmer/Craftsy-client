@@ -4,11 +4,11 @@ const cormorant = Cormorant({ subsets: ["latin"] });
 export default function CraftsyLoader() {
   return (
     <div className="min-h-screen bg-[#fcf8f0] flex flex-col justify-center items-center z-50">
-      <div className="crafty-spinner mb-8">
-        <div className="crafty-block"></div>
-        <div className="crafty-block"></div>
-        <div className="crafty-block"></div>
-        <div className="crafty-block"></div>
+      <div className="Craftsy-spinner mb-8">
+        <div className="Craftsy-block"></div>
+        <div className="Craftsy-block"></div>
+        <div className="Craftsy-block"></div>
+        <div className="Craftsy-block"></div>
       </div>
 
       <h2

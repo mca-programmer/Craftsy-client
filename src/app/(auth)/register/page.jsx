@@ -163,7 +163,7 @@ export default function Register() {
             href="/"
             className="text-5xl font-bold text-white tracking-tight"
           >
-            crafty.
+            Craftsy.
           </Link>
           <p className="text-white/80 mt-2 text-lg font-medium">
             Join our community.

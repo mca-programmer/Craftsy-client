@@ -69,7 +69,7 @@ export default function Footer() {
             <div className="space-y-4">
               <Link href="/" className="inline-block no-underline">
                 <h2 className="text-4xl md:text-5xl font-bold tracking-tighter">
-                  crafty.
+                  Craftsy.
                 </h2>
               </Link>
 
@@ -142,7 +142,7 @@ export default function Footer() {
               <div className="space-y-2 text-sm md:text-base text-white/85">
                 <p className="flex items-center gap-2">
                   <Mail className="w-4 h-4" strokeWidth={1.5} />
-                  <span>hello@crafty.com</span>
+                  <span>hello@Craftsy.com</span>
                 </p>
                 <p className="flex items-center gap-2">
                   <Phone className="w-4 h-4" strokeWidth={1.5} />
