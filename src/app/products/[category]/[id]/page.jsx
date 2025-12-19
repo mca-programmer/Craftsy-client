@@ -19,7 +19,7 @@ import { Cormorant } from "next/font/google";
 import { toast } from "react-hot-toast";
 import { onAuthStateChanged } from "firebase/auth";
 import { auth } from "@/lib/firebase";
-import CraftyLoader from "@/components/CraftyLoader";
+import CraftsyLoader from "@/components/CraftsyLoader";
 
 const cormorant = Cormorant({ subsets: ["latin"] });
 
@@ -101,7 +101,7 @@ export default function ProductDetails() {
   };
 
   if (loading) {
-    return <CraftyLoader />;
+    return <CraftsyLoader />;
   }
 
   if (!product) return null;

@@ -1,5 +1,5 @@
-import CraftyLoader from "@/components/CraftyLoader";
+import CraftsyLoader from "@/components/CraftsyLoader";
 
 export default function Loading() {
-  return <CraftyLoader />;
+  return <CraftsyLoader />;
 }
